@@ -96,7 +96,7 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
   - u = display the process’s user/owner
   - x = also show processes not attached to a terminal
 - To use root user `sudo su` or `sudo i`
-- To use `|` pipe
+- To use `|` pipe : [refer](https://opensource.com/article/18/8/introduction-pipes-linux)
 - To remove/delete/kill process `sudo kill -9 PID`
 - To check file permission `ll`
 - change file permission `chmod permission filename`
