@@ -104,8 +104,8 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
 - update our ubuntu OS `sudo apt-get update`
 - upgrade or ubuntu OS `sudo apt-get upgrade` or `sudo apt-get upgrade -y`
 - To create automate tasks with provisioning scripts
-- automate update and upgrade
-- `sudo nano provision.sh`
-- `sudo cat provision.sh`
-- `sudo chmod +x provision.sh`
-- run provision.sh `./provision.sh`
+  - automate update and upgrade
+    - `sudo nano provision.sh`
+    - `sudo cat provision.sh`
+    - `sudo chmod +x provision.sh`
+    - run provision.sh `./provision.sh`
