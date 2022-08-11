@@ -1,4 +1,4 @@
-# What is Dev Env and Benefits
+# What is Dev Env?
 
 A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers
 
@@ -68,6 +68,11 @@ If there is an issue with vagrantfile, use commands:
 
 Virtualisation creates a simulated, or virtual, computing environment as opposed to a physical environment. Virtualisation often includes computer-generated versions of hardware, operating systems, storage devices and more. This allows organisations to partition a single physical computer or server into several virtual machines. Each virtual machine can then interact independently and run different operating systems or applications while sharing the resources of a single host machine.
 
+### Benefits
+
+- Virtualization can increase IT agility, flexibility and scalability while creating significant cost savings.
+- Greater workload mobility, increased performance and availability of resources, automated operations – they’re all benefits of virtualization that make IT simpler to manage and less costly to own and operate.
+
 ## Commands used in Linux
 
 - To find out the name of OS
@@ -92,7 +97,7 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
   - x = also show processes not attached to a terminal
 - To use root user `sudo su` or `sudo i`
 - To use `|` pipe
-- To remove/delete/kill process
+- To remove/delete/kill process `sudo kill -9 PID`
 - To check file permission `ll`
 - change file permission `chmod permission filename`
   - `r` or `w` or `rw` `all` also numbers `400` or `600` for all `700`
