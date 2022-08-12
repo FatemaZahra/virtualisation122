@@ -9,6 +9,12 @@ A development environment is the collection of processes and tools that are used
 
 ## Steps
 
+- [Install Vagrant](https://www.vagrantup.com/) : For Mac `brew install vagrant`
+
+- [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+### Test for installations
+
 - Make a directory
 
   `mkdir new_folder`
