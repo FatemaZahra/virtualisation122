@@ -1,6 +1,11 @@
 # What is Dev Env?
 
-A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers
+A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers. The purpose of a development environment is to have a place for a developer to test anything they want without worrying about it affecting any end-users or content editors working on a live website.
+
+### Benefits of DevEnv
+
+- Working with multiple environments and following a deployment process is great for streamlined workflows and for reducing potential errors. 
+- Depending on the size of a website project, multiple environments can be added to the infrastructure.
 
 ## Vagrant and Virtual Box
 
