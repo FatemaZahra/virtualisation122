@@ -4,7 +4,7 @@ A development environment is the collection of processes and tools that are used
 
 ### Benefits of DevEnv
 
-- Working with multiple environments and following a deployment process is great for streamlined workflows and for reducing potential errors. 
+- Working with multiple environments and following a deployment process is great for streamlined workflows and for reducing potential errors.
 - Depending on the size of a website project, multiple environments can be added to the infrastructure.
 
 ## Vagrant and Virtual Box
