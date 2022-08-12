@@ -109,9 +109,15 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
   - `r` or `w` or `rw` `all` also numbers `400` or `600` for all `700`
 - update our ubuntu OS `sudo apt-get update`
 - upgrade or ubuntu OS `sudo apt-get upgrade` or `sudo apt-get upgrade -y`
+- Command to do it together `sudo apt-get update && sudo apt-get upgrade -y`
 - To create automate tasks with provisioning scripts
   - automate update and upgrade
     - `sudo nano provision.sh`
     - `sudo cat provision.sh`
     - `sudo chmod +x provision.sh`
     - run provision.sh `./provision.sh`
+- Install nginx `sudo apt-get install nginx -y`
+  - To check if it's installed/working `sudo systemctl status nginx`
+- To restart a process in this case its NGINX
+- restart or start `sudo systemctl restart ngnix`
+- enable the process `sudo systemctl enable ngnix`
