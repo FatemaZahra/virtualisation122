@@ -2,6 +2,8 @@
 
 A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers. The purpose of a development environment is to have a place for a developer to test anything they want without worrying about it affecting any end-users or content editors working on a live website.
 
+<img width="719" alt="Screenshot 2022-08-14 at 17 35 02" src="https://user-images.githubusercontent.com/102330725/184546318-60018542-46fb-4117-b30b-312f84bd8a16.png">
+
 ### Benefits of DevEnv
 
 - Working with multiple environments and following a deployment process is great for streamlined workflows and for reducing potential errors.
