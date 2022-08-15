@@ -8,6 +8,9 @@ Vagrant.configure("2") do |config|
  config.vm.network "private_network", ip: "192.168.56.10"
 # once you have added private network, you need reboot VM - vagrant reload
 # if reload does not work - try - vagrant destroy - then vagrant up
+
+#let's sync our app folder from localhost to VM
+ config.vm.synced_folder ".", "/home/vagrant/app"
  
 
  

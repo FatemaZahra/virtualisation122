@@ -128,3 +128,22 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
 - To restart a process in this case its NGINX
 - restart or start `sudo systemctl restart ngnix`
 - enable the process `sudo systemctl enable ngnix`
+
+### Monolith Deployment
+
+** Nodejs - backend tool - by default Nodejs works on port 3000 **
+
+#### To run test in the environment file
+
+- Move the app folder in the folder where the Vagrant file is present.
+- `cd` into the environment folder
+- `cd` into spec-tests folder.
+- Install bundler `gem install bundler` or `sudo gem install bundler`
+- Run `bundle`
+
+### To move app folder in the vagrant env
+
+- Paste command in Vagrantfile `config.vm.synced_folder ".", "/home/vagrant/app"`
+- `vagrant reload` outside of vagrant (in the folder where vagrantfile is)
+- `vagrant ssh`
+- `ls` to check if the app is present.
