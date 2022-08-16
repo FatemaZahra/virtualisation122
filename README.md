@@ -140,6 +140,8 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
 - `cd` into spec-tests folder.
 - Install bundler `gem install bundler` or `sudo gem install bundler`
 - Run `bundle`
+- `cd` into spec-test
+- Run `rake spec` to test the file
 
 ### To move app folder in the vagrant env
 
@@ -147,3 +149,25 @@ Virtualisation creates a simulated, or virtual, computing environment as opposed
 - `vagrant reload` outside of vagrant (in the folder where vagrantfile is)
 - `vagrant ssh`
 - `ls` to check if the app is present.
+
+## commands
+
+**Install node-js**: `sudo apt-get install nodejs -y`
+
+**Check node-js**: `nodejs --version`
+
+**Install v-6 of node-js**: `sudo apt-get purge nodejs npm`
+
+`curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
+
+`sudo apt-get install nodejs -y`
+
+**Install pm2**: `sudo npm install pm2 -g`
+
+**Update**: `sudo apt-get update -y`
+
+**Upgrade**: `sudo apt-get upgrade -y`
+
+### To start the app
+
+Run `npm install` and then `npm start`
